@@ -1,5 +1,11 @@
 A small client to connect with MindConnect IoT using the MindConnect IoT Extension
 
+## Installation
+The easiest way to get started is by using `pip`, to get started run:
+```
+pip install mindconnectiot
+```
+
 ## How to use
 First initialise a new `MindConnectIot` object for your device:
 ```python
