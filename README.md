@@ -10,6 +10,6 @@ mindconnect = MindConnectIot(device_name, mindconnect_region, tenant_name,
 ```
 
 Afterwards you can send data to the cloud, e.g. to send a measurement:
-```
-mindconnect.sendMeasurement('Temperature', 'Celsius', 23.4, '*C')
 ```python
+mindconnect.sendMeasurement('Temperature', 'Celsius', 23.4, '*C')
+```
