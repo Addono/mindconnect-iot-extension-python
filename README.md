@@ -2,7 +2,7 @@ A small client to connect with MindConnect IoT using the MindConnect IoT Extensi
 
 ## How to use
 First initialise a new `MindConnectIot` object for your device:
-```
+```python
 from mindconnectiot import MindConnectIot
 
 mindconnect = MindConnectIot(device_name, mindconnect_region, tenant_name, 
